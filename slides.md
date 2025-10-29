@@ -1,11 +1,11 @@
 ---
 # try also 'default' to start simple
-theme: seriph
+theme: default
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
+background: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.varesenews.it%2Fphotogallery_new%2Fimages%2F2021%2F03%2Fgenerica-2020-1206431.610x431.jpg&f=1&nofb=1&ipt=3c8ea3d14ff6ff38a9c7290d5bc65054d590620eb6b8c536791c59b211270d0a
 # some information about your slides (markdown enabled)
-title: Welcome to Slidev
+title: Una giornata a spasso per Busto Arsizio
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
@@ -24,614 +24,195 @@ mdc: true
 duration: 35min
 ---
 
-# Welcome to Slidev
+# Una giornata a spasso per Busto Arsizio
 
-Presentation slides for developers
-
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
-  Press Space for next page <carbon:arrow-right />
+<div  class="mt-12 py-1">
+ feat <span class="text-orange-500 font-bold italic"> Valerio Lamberti </span> & <span class="text-orange-500 font-bold italic">Mykhaylo Tymofyeyev</span>
 </div>
 
-<div class="abs-br m-6 text-xl">
+<!--<div class="abs-br m-6 text-xl">
   <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="slidev-icon-btn">
     <carbon:edit />
   </button>
   <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
     <carbon:logo-github />
   </a>
-</div>
+</div>-->
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
 
 ---
-transition: fade-out
----
 
-# What is Slidev?
+<!--## transition: fade-out-->
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+# Cose da sapere su Busto Arsizio
 
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - themes can be shared and re-used as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
-<br>
-<br>
+<div class="flex ">
+  <div class="w-full">
+    <p v-click>
+      Busto Arsizio è un comune italiano di 84 332 abitanti della provincia di Varese in Lombardia.
+    </p>
+    <br>
+    <p v-click="2" >
+      è un posto bellissimo che ispira vita e felicità
+    </p>
+    <p v-click="3" class="text-orange-500 font-bold italic z-1000 top-20 relative">
+      ed, a quanto pare, ha anche tanto da offrire
+    </p>
+  </div>
 
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+<img
+v-click="1"
+class="w-full"
+src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwips.plug.it%2Fcips%2Fnotizie.virgilio.it%2Fcms%2F2025%2F04%2Fbusto-arsizio.jpg&f=1&nofb=1&ipt=ac342ad1c0f1f396a1e8a54b177e199ed5225eda880dc0c8a086da19241ec670"
+alt=""
+/>
+<img
+v-click
+class="w-100 absolute top-10 right-10 rotate-12"
+src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.varesenews.it%2Fphotogallery_new%2Fimages%2F2011%2F05%2Fgiro-d-italia-2011-saronno-busto-arsizio-202729.jpg&f=1&nofb=1&ipt=4c0e92878b4264da66a879a31cba176527552492ff1db9d750113d79ba759389"
+alt=""
+/>
+<img
+v-click
+class="w-100 absolute bottom-10 right-1/4 -rotate-8"
+src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.sportface.it%2Fwp-content%2Fuploads%2F2024%2F12%2FBusto-Arsizio.jpg&f=1&nofb=1&ipt=70fe0ae8e7c413f72559a116a324a4ba1eb371887d98e99e44cd80a5626ba998"
+alt=""
+/>
+
+</div>
 
 <!--
 You can have `style` tag in markdown to override the style for the current page.
 Learn more: https://sli.dev/features/slide-scope-style
 -->
 
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
 <!--
 Here is another comment.
 -->
 
 ---
-transition: slide-up
-level: 2
+
+### ora che abbiamo la vostra attenzione...
+
 ---
 
-# Navigation
+# Cosa è successo a Busto Arsizio il 14 e 15 Ottobre?
 
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/ui#navigation-bar)
-
-## Keyboard Shortcuts
-
-|                                                     |                             |
-| --------------------------------------------------- | --------------------------- |
-| <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                       | previous slide              |
-| <kbd>down</kbd>                                     | next slide                  |
-
-<!-- https://sli.dev/guide/animations.html#click-animation -->
-<img
+<div class="relative">
+  <img
   v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
+  class="shadow-xl"
+  src="/img-1.png"
   alt=""
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
----
-layout: two-cols
-layoutClass: gap-16
----
-
-# Table of contents
-
-You can use the `Toc` component to generate a table of contents for your slides:
-
-```html
-<Toc minDepth="1" maxDepth="1" />
-```
-
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
-
-::right::
-
-<Toc text-sm minDepth="1" maxDepth="2" />
-
----
-layout: image-right
-image: https://cover.sli.dev
----
-
-# Code
-
-Use code snippets and get the highlighting directly, and even types hover!
-
-```ts [filename-example.ts] {all|4|6|6-7|9|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
-import { computed, ref } from 'vue'
-
-const count = ref(0)
-const doubled = computed(() => count.value * 2)
-
-doubled.value = 2
-```
-
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="342" color="#953" width="2" arrowSize="1" />
-
-<!-- This allow you to embed external code blocks -->
-<<< @/snippets/external.ts#snippet
-
-<!-- Footer -->
-
-[Learn more](https://sli.dev/features/line-highlighting)
-
-<!-- Inline style -->
-<style>
-.footnotes-sep {
-  @apply mt-5 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
-<!--
-Notes can also sync with clicks
-
-[click] This will be highlighted after the first click
-
-[click] Highlighted with `count = ref(0)`
-
-[click:3] Last click (skip two clicks)
--->
-
----
-level: 2
----
-
-# Shiki Magic Move
-
-Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code snippets.
-
-Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move. For example:
-
-````md magic-move {lines: true}
-```ts {*|2|*}
-// step 1
-const author = reactive({
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-})
-```
-
-```ts {*|1-2|3-4|3-4,8}
-// step 2
-export default {
-  data() {
-    return {
-      author: {
-        name: 'John Doe',
-        books: [
-          'Vue 2 - Advanced Guide',
-          'Vue 3 - Basic Guide',
-          'Vue 4 - The Mystery'
-        ]
-      }
-    }
-  }
-}
-```
-
-```ts
-// step 3
-export default {
-  data: () => ({
-    author: {
-      name: 'John Doe',
-      books: [
-        'Vue 2 - Advanced Guide',
-        'Vue 3 - Basic Guide',
-        'Vue 4 - The Mystery'
-      ]
-    }
-  })
-}
-```
-
-Non-code blocks are ignored.
-
-```vue
-<!-- step 4 -->
-<script setup>
-const author = {
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-}
-</script>
-```
-````
-
----
-
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
-<!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
--->
-
----
-class: px-20
----
-
-# Themes
-
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
+  />
+  <img
+  v-click
+  class="absolute inset-0 rotate-3 shadow-xl"
+  src="/img-2.png"
+  alt=""
+  />
+  <img
+  v-click
+  class="absolute -rotate-2 inset-0 shadow-xl"
+  src="/img-3.png"
+  alt=""
+  />
+  <img
+  v-click
+  class="absolute inset-0 rotate-2 shadow-xl"
+  src="/img-5.png"
+  alt=""
+  />
 
 </div>
 
-Read more about [How to use a theme](https://sli.dev/guide/theme-addon#use-theme) and
-check out the [Awesome Themes Gallery](https://sli.dev/resources/theme-gallery).
-
 ---
 
-# Clicks Animations
+## ma anche questo...
 
-You can add `v-click` to elements to add a click animation.
+<div class="relative min-h-[70vh]">
+  <img
+    v-click
+    class="absolute top-[0%] left-[6%] w-[33%] rotate-6 shadow-xl"
+    src="/codemotion/1.JPG"
+    alt=""
+  />
+  <img
+    v-click
+    class="absolute top-[18%] left-[2%] w-[30%] -rotate-3 shadow-lg"
+    src="/codemotion/2.JPG"
+    alt=""
+  />
+  <img
+    v-click
+    class="absolute top-[14%] right-[28%] w-[28%] rotate-12 shadow-lg"
+    src="/codemotion/3.JPG"
+    alt=""
+  />
+  <img
+    v-click
+    class="absolute bottom-[32%] right-[18%] w-[24%] -rotate-6 shadow-xl"
+    src="/codemotion/4.JPG"
+    alt=""
+  />
+  <img
+    v-click
+    class="absolute top-[-10%] right-[8%] w-[29%] rotate-9 shadow-lg"
+    src="/codemotion/6.JPG"
+    alt=""
+  />
+  <img
+    v-click
+    class="absolute top-[14%] left-[32%] w-[29%] -rotate-8 shadow-xl"
+    src="/codemotion/7.JPG"
+    alt=""
+  />
+  <img
+    v-click
+    class="absolute top-[-12%] right-[46%] w-[28%] rotate-3 shadow-lg"
+    src="/codemotion/8.JPG"
+    alt=""
+  />
+  <img
+    v-click
+    class="absolute top-[28%] right-[0%] w-[50%] rotate-12 shadow-xl"
+    src="/codemotion/9.JPG"
+    alt=""
+  />
+  <img
+    v-click
+    class="absolute top-[-6%] left-[8%] w-[38%] -rotate-2 shadow-lg"
+    src="/codemotion/11.JPG"
+    alt=""
+  />
+  <img
+    v-click
+    class="absolute top-[-15%] left-[20%] w-[54%] rotate-8 shadow"
+    src="/codemotion/12.PNG"
+    alt=""
+  />
+  <img
+    v-click
+    class="absolute top-[-8%] right-[5%] w-[36%] -rotate-6 shadow-xl"
+    src="/codemotion/13.JPG"
+    alt=""
+  />
+  <video
+    class="absolute top-1/3 left-1/2 w-[33%] rotate-6 shadow-2xl rotate-1 shadow-2xl rounded-xl transform -translate-x-1/2 -translate-y-1/2"
+    controls
+    v-click
+    muted
+    autoplay
+    loop
+  >
+    <source src="/codemotion/5-1.mov" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 
-<div v-click>
-
-This shows up when you click the slide:
-
-```html
-<div v-click>This shows up when you click the slide.</div>
-```
-
+<p class="absolute top-1/4 left-1/2 -translate-x-1/2 text-orange-500 font-bold italic text-8xl text-nowrap" v-click>
+  Nerd Ovunque
+</p>
 </div>
-
-<br>
-
-<v-click>
-
-The <span v-mark.red="3"><code>v-mark</code> directive</span>
-also allows you to add
-<span v-mark.circle.orange="4">inline marks</span>
-, powered by [Rough Notation](https://roughnotation.com/):
-
-```html
-<span v-mark.underline.orange>inline markers</span>
-```
-
-</v-click>
-
-<div mt-20 v-click>
-
-[Learn more](https://sli.dev/guide/animations#click-animation)
-
-</div>
-
----
-
-# Motions
-
-Motion animations are powered by [@vueuse/motion](https://motion.vueuse.org/), triggered by `v-motion` directive.
-
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }"
-  :click-3="{ x: 80 }"
-  :leave="{ x: 1000 }"
->
-  Slidev
-</div>
-```
-
-<div class="w-60 relative">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-square.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-circle.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-triangle.png"
-      alt=""
-    />
-  </div>
-
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
-  </div>
-</div>
-
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 30, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn more](https://sli.dev/guide/animations.html#motion)
-
-</div>
-
----
-
-# LaTeX
-
-LaTeX is supported out-of-box. Powered by [KaTeX](https://katex.org/).
-
-<div h-3 />
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-$$ {1|3|all}
-\begin{aligned}
-\nabla \cdot \vec{E} &= \frac{\rho}{\varepsilon_0} \\
-\nabla \cdot \vec{B} &= 0 \\
-\nabla \times \vec{E} &= -\frac{\partial\vec{B}}{\partial t} \\
-\nabla \times \vec{B} &= \mu_0\vec{J} + \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}
-\end{aligned}
-$$
-
-[Learn more](https://sli.dev/features/latex)
-
----
-
-# Diagrams
-
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
-
-```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
-</div>
-
-Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML Diagrams](https://sli.dev/features/plantuml)
-
----
-foo: bar
-dragPos:
-  square: 691,32,167,_,-16
----
-
-# Draggable Elements
-
-Double-click on the draggable elements to edit their positions.
-
-<br>
-
-###### Directive Usage
-
-```md
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-```
-
-<br>
-
-###### Component Usage
-
-```md
-<v-drag text-3xl>
-  <div class="i-carbon:arrow-up" />
-  Use the `v-drag` component to have a draggable container!
-</v-drag>
-```
-
-<v-drag pos="663,206,261,_,-15">
-  <div text-center text-3xl border border-main rounded>
-    Double-click me!
-  </div>
-</v-drag>
-
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-
-###### Draggable Arrow
-
-```md
-<v-drag-arrow two-way />
-```
-
-<v-drag-arrow pos="67,452,253,46" two-way op70 />
-
----
-src: ./pages/imported-slides.md
-hide: false
----
-
----
-
-# Monaco Editor
-
-Slidev provides built-in Monaco Editor support.
-
-Add `{monaco}` to the code block to turn it into an editor:
-
-```ts {monaco}
-import { ref } from 'vue'
-import { emptyArray } from './external'
-
-const arr = ref(emptyArray(10))
-```
-
-Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
-
-```ts {monaco-run}
-import { version } from 'vue'
-import { emptyArray, sayHello } from './external'
-
-sayHello()
-console.log(`vue ${version}`)
-console.log(emptyArray<number>(10).reduce(fib => [...fib, fib.at(-1)! + fib.at(-2)!], [1, 1]))
-```
-
----
-layout: center
-class: text-center
----
-
-# Learn More
-
-[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/resources/showcases)
-
-<PoweredBySlidev mt-10 />
