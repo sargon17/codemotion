@@ -200,6 +200,12 @@ Here is another comment.
     src="/codemotion/13.JPG"
     alt=""
   />
+  <img
+    v-click
+    class="absolute top-[-8%] right-[1%] w-[36%] -rotate-6 shadow-xl"
+    src="/codemotion/us.png"
+    alt=""
+  />
   <video
     class="absolute top-1/3 left-1/2 w-[33%] rotate-6 shadow-2xl rotate-1 shadow-2xl rounded-xl transform -translate-x-1/2 -translate-y-1/2"
     controls
@@ -215,4 +221,209 @@ Here is another comment.
 <p class="absolute top-1/4 left-1/2 -translate-x-1/2 text-orange-500 font-bold italic text-8xl text-nowrap" v-click>
   Nerd Ovunque
 </p>
+</div>
+---
+
+# 🌟 Keynote e Guest Star
+
+<div class="space-y-8 text-left">
+
+  <div>
+    <h3>Scott Chacon – Co-fondatore di GitHub</h3>
+    <div class="bg-black text-white inline-block px-2 py-1 rounded text-sm mt-2">Keynote di Apertura</div>
+    <p class="mt-2">
+      Scott Chacon, co-fondatore di GitHub e autore di <em>Pro Git</em>, aprirà la conferenza raccontando l’evoluzione del version control e delle piattaforme collaborative.
+      Oggi è founder di <strong>GitButler</strong>, un client di version control di nuova generazione.
+    </p>
+    <p class="mt-2 text-sm">
+      <strong>Perché è rilevante per i frontend dev:</strong> Gli strumenti che Scott ha creato influenzano direttamente il modo in cui gestiamo i progetti frontend.
+    </p>
+  </div>
+
+  <div>
+    <h3>Massimo Banzi – Co-fondatore di Arduino</h3>
+    <div class="bg-orange-500 text-white inline-block px-2 py-1 rounded text-sm mt-2">Keynote</div>
+    <p class="mt-2">
+      L'evoluzione di Arduino da progetto di ricerca a piattaforma open source globale. Lezioni su UX, community building e l’equilibrio tra accessibilità e capacità tecniche.
+    </p>
+  </div>
+
+  <div>
+    <h3>Enrica Porcari – CIO del CERN</h3>
+    <div class="bg-orange-500 text-white inline-block px-2 py-1 rounded text-sm mt-2">Keynote</div>
+    <p class="mt-2">
+      Prima donna CIO al CERN, parlerà dell’approccio umanistico applicato a scienza e tecnologia.
+    </p>
+  </div>
+
+</div>
+
+---
+
+# 🎯 Track Frontend: Web App to First Class UX
+
+<div class="space-y-4 text-left">
+  <h3 class="text-xl text-orange-500">La Visione del Track</h3>
+  <p>
+    Il frontend nel 2025 non è più solo “UI”: è performance, accessibilità, sostenibilità e architettura.
+    Focus su <strong>WASM</strong>, <strong>PWA</strong> e <strong>design inclusivo</strong>.
+  </p>
+</div>
+
+<div class="mt-8 space-y-2">
+  <h3 class="text-xl text-orange-500">🌟 Il Tema Centrale</h3>
+  <p>
+    <strong>Frontend AI-Ready</strong> — progettare interfacce non solo per umani ma anche per agenti AI.
+  </p>
+</div>
+
+---
+
+# 🎤 Talk Frontend Imperdibili
+
+<div class="space-y-6 text-left overflow-y-auto h-screen">
+
+  <div class="border-l-4 border-orange-500 pl-4 relative">
+    <h3>The Remix Evolution: How React Router v7 Enables Fast and Resilient Apps</h3>
+    <div class="text-sm text-gray-600">Aurora Scharff – React & Routing</div>
+    <p>L’evoluzione di Remix e React Router v7 per applicazioni web veloci e resilienti. Migliora performance e developer experience con routing più potente e flessibile.</p>
+       <img
+    v-click
+    class=" absolute top-0 right-0 w-[30%] -rotate-3 shadow-lg"
+    src="/codemotion/tanstack.png"
+    alt=""
+  />
+  </div>
+
+  <div class="border-l-4 border-orange-500 pl-4 relative">
+    <h3>Astro – Less JavaScript, Faster Website</h3>
+    <div class="text-sm text-gray-600">Elian Van Cutsem – Performance</div>
+    <p>Astro rivoluziona lo sviluppo web: <strong>meno JavaScript, più velocità</strong>. Invia al browser solo ciò che serve e migliora i Core Web Vitals.</p>
+    <img
+    v-click
+    class=" absolute top-30 left-0 w-[30%] -rotate-3 shadow-lg"
+    src="/codemotion/astro.png"
+    alt=""
+  />
+  </div>
+</div>
+
+---
+
+# 🎤 Talk Frontend Imperdibili
+
+<div class="space-y-6 text-left overflow-y-auto">
+  <div class="border-l-4 border-orange-500 pl-4">
+    <h3>Practical Accessibility in React: The Sand Dollar Approach</h3>
+    <div class="text-sm text-gray-600">Kathleen McMahon – Workshop Hands-On</div>
+    <p>Workshop pratico per costruire app React <strong>veramente accessibili</strong>, basato sull’European Accessibility Act e gli standard WCAG.</p>
+  </div>
+
+  <div class="border-l-4 border-orange-500 pl-4 relative">
+    <h3>TanStack Query in Expo Apps: Improving DX and UX like No Other</h3>
+    <div class="text-sm text-gray-600">Devlin Duldulao – Mobile & State Management</div>
+    <p>Come TanStack Query trasforma lo sviluppo di app React Native con Expo, migliorando UX e DX grazie a caching e sincronizzazione dati.</p>
+   
+  </div>
+
+  <div class="border-l-4 border-orange-500 pl-4">
+    <h3>Possibilities with Web Capabilities</h3>
+    <div class="text-sm text-gray-600">Rowdy Rabouw – Web Capabilities</div>
+    <p>Scopri le moderne API del web che avvicinano le web app alle native: filesystem, sensori, notifiche push e pagamenti.</p>
+  </div>
+
+</div>
+
+---
+
+# 🔥 Architetture Frontend & Best Practices
+
+<div class="text-left space-y-4">
+  <h3>Frontend Scalabile per l’Era dell’AI</h3>
+  <div class="text-sm text-gray-600 mb-2">César – Architettura AI-Ready</div>
+  <p><strong>🤖 Come progettare interfacce per utenti umani e agenti AI</strong>.</p>
+  <ul class="list-disc ml-6">
+    <li>Scalabili – crescono senza diventare ingestibili</li>
+    <li>Testabili – ogni componente verificabile in isolamento</li>
+    <li>AI-friendly – interagiscono con agenti intelligenti</li>
+    <li>Manutenibili – pattern chiari e condivisi</li>
+  </ul>
+  <p><strong>💡 Perché è importante:</strong> l’AI che genera UI e codice richiede frontend con regole prevedibili e strutture modulari.</p>
+</div>
+
+---
+
+# ♿ Accessibilità: Non Un’Opzione, Ma Uno Standard
+
+<div class="space-y-6 text-left">
+
+  <div class="border-l-4 border-orange-500 pl-4">
+    <h3>European Accessibility Act (EAA)</h3>
+    <p>Dal 2025, l’accessibilità digitale diventa obbligatoria in Europa. Le aziende devono conformarsi agli standard WCAG 2.1 AA.</p>
+  </div>
+
+  <div class="border-l-4 border-orange-500 pl-4">
+    <h3>Practical Accessibility in React</h3>
+    <div class="text-sm text-gray-600">Kathleen McMahon – Workshop Essenziale</div>
+    <p><strong>The Sand Dollar Approach</strong> – metodo pratico per integrare l’accessibilità in ogni fase dello sviluppo.</p>
+    <ul class="list-disc ml-6 text-sm">
+      <li>HTML semantico e ARIA intelligente</li>
+      <li>Focus management e test automatici</li>
+      <li>Collaborazione cross-team e CI/CD integration</li>
+    </ul>
+    <p class="mt-4 text-orange-600">
+      📊 <strong>Impatto dell’accessibilità:</strong> raggiungi più utenti, migliori SEO e performance, rispetti la legge.
+    </p>
+  </div>
+
+</div>
+
+---
+
+# 🔗 Talk Complementari per Frontend Dev
+
+<div class="space-y-6 text-left">
+
+  <div>
+    <h3>Implementare Applicazioni GenAI in Produzione</h3>
+    <div class="text-sm text-gray-600">Roberto Corno & Francesca Marini – NTT DATA</div>
+    <p><strong>15 Ottobre, 14:45–15:30</strong></p>
+    <p>Strategie pratiche per portare la GenAI dal concept all’uso quotidiano, con focus sull’integrazione frontend.</p>
+  </div>
+
+  <div>
+    <h3>MCP e OpenAPI per Dare Superpoteri al Tuo Chatbot AI</h3>
+    <div class="text-sm text-gray-600">Simone Desantis – CTO OpenAPI</div>
+    <p><strong>14 Ottobre, 16:50</strong></p>
+    <p>Come sfruttare il Model Context Protocol e OpenAPI per creare chatbot AI con accesso a milioni di dati affidabili.</p>
+  </div>
+
+  <div>
+    <h3>Internal Developer Platform e GenAI: La Strana Coppia</h3>
+    <div class="text-sm text-gray-600">Gianfelice Catini & Andrea Veronesi – Unipol Assicurazioni</div>
+    <p>Come l’AI generativa sta rivoluzionando il Platform Engineering e influenzando lo sviluppo frontend.</p>
+  </div>
+
+  <div>
+    <h3>Postmortem: Trasformare gli Incidenti in Apprendimento</h3>
+    <p>Un talk essenziale sulla cultura del “fail forward”: imparare dagli errori di produzione per migliorare i team frontend.</p>
+  </div>
+
+</div>
+
+---
+
+<div class="text-center space-y-2 mt-12 relative">
+  <h2>🚀 <strong>Codemotion Milano 2025</strong></h2>
+  <p>Where Code Matters</p>
+  <p>14–15 Ottobre @ MalpensaFiere</p>
+  <p class="text-sm text-gray-500">
+    conferences.codemotion.com/milan2025
+  </p>
+    <img
+    v-click
+    class=" absolute top-30 left-0 w-[30%] -rotate-3 shadow-lg"
+    src="/codemotion/bath.png"
+    alt=""
+  />
 </div>
