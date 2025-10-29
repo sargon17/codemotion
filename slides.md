@@ -230,7 +230,6 @@ Here is another comment.
 
   <div>
     <h3>Scott Chacon – Co-fondatore di GitHub</h3>
-    <div class="bg-black text-white inline-block px-2 py-1 rounded text-sm mt-2">Keynote di Apertura</div>
     <p class="mt-2">
       Scott Chacon, co-fondatore di GitHub e autore di <em>Pro Git</em>, aprirà la conferenza raccontando l’evoluzione del version control e delle piattaforme collaborative.
       Oggi è founder di <strong>GitButler</strong>, un client di version control di nuova generazione.
@@ -242,7 +241,6 @@ Here is another comment.
 
   <div>
     <h3>Massimo Banzi – Co-fondatore di Arduino</h3>
-    <div class="bg-orange-500 text-white inline-block px-2 py-1 rounded text-sm mt-2">Keynote</div>
     <p class="mt-2">
       L'evoluzione di Arduino da progetto di ricerca a piattaforma open source globale. Lezioni su UX, community building e l’equilibrio tra accessibilità e capacità tecniche.
     </p>
@@ -250,7 +248,6 @@ Here is another comment.
 
   <div>
     <h3>Enrica Porcari – CIO del CERN</h3>
-    <div class="bg-orange-500 text-white inline-block px-2 py-1 rounded text-sm mt-2">Keynote</div>
     <p class="mt-2">
       Prima donna CIO al CERN, parlerà dell’approccio umanistico applicato a scienza e tecnologia.
     </p>
@@ -323,7 +320,7 @@ Here is another comment.
     <h3>TanStack Query in Expo Apps: Improving DX and UX like No Other</h3>
     <div class="text-sm text-gray-600">Devlin Duldulao – Mobile & State Management</div>
     <p>Come TanStack Query trasforma lo sviluppo di app React Native con Expo, migliorando UX e DX grazie a caching e sincronizzazione dati.</p>
-   
+
   </div>
 
   <div class="border-l-4 border-orange-500 pl-4">
